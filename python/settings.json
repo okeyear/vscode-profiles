@@ -1,0 +1,20 @@
+  //  ---python配置---
+  // Pylance offers auto import suggestions for modules
+  "python.analysis.autoImportCompletions": true,
+  // python的languageServer 建议用 Pylance
+  "python.languageServer": "Pylance",
+  // https://code.visualstudio.com/docs/python/linting#_specific-linters
+  // "python.linting.<linter>Enabled": true
+  //  "python.formatting.provider": "autopep8",
+  // 每行最大长度
+  // "python.formatting.autopep8Args": [
+  //     "--max-line-length=248", "--experimental"
+  // ],
+  // isort 对导入模块排序 自定义宽度
+  "python.sortImports.args": ["-l", "100"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
