@@ -1,0 +1,10 @@
+# 微软官方的Python扩展插件
+code --install-extension ms-python.python
+# python语言服务器pylance
+code --install-extension ms-python.vscode-pylance
+# python导入模块排序
+code --install-extension ms-python.isort
+# python格式化
+code --install-extension black-formatter
+# 函数和方法的注释文档docstring
+code --install-extension njpwerner.autodocstring
