@@ -11,9 +11,10 @@
   //     "--max-line-length=248", "--experimental"
   // ],
   // isort 对导入模块排序 自定义宽度
-  "python.sortImports.args": ["-l", "100"],
+  "isort.args":["--profile", "black"],
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     }
