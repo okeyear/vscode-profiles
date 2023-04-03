@@ -30,7 +30,7 @@
   // "editor.tabSize": 4,
   // 默认终端为git-bash 中的bash
   "terminal.integrated.profiles.windows": {
-    "Git Bash": {
+    "GitBash": {
       "path": "bash.exe",
       "icon": "terminal-bash"
     },
@@ -43,7 +43,7 @@
       "icon": "terminal-cmd"
     }
   },
-  // "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // "terminal.integrated.defaultProfile.windows": "GitBash",
   //控制终端在其缓冲区中保留的最大行数
   "terminal.integrated.scrollback": 20000,
   // 在使用搜索功能时，将这些文件夹/文件排除在外
