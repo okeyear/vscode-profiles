@@ -1,0 +1,62 @@
+  // ------------------------全局配置------------------------
+  // 使用的代理服务器
+  // "http.proxy": "http://127.0.0.1:3128",
+  // 编辑界面的字体, 建议用 JetBrains的字体, 下载链接为 https://github.com/JetBrains/JetBrainsMono
+  "editor.fontFamily": "'JetBrains Mono','Fira Code', 'Consolas', 'Courier New', 'monospace', 'YaHei Consolas Hybrid'",
+  // "editor.fontSize": 14,
+    "editor.renderWhitespace": "none",
+  // "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+  // Tab Completion
+  "editor.tabCompletion": true,
+  // 在保存时候,格式化代码
+  "editor.formatOnSave": true,
+  // 在键入一行之后,格式化代码
+  "editor.formatOnType": true,
+  // 在粘贴之后,格式化代码
+  "editor.formatOnPaste": true,
+  // 根据当前屏幕宽度换行
+  "editor.wordWrap": "on",
+    // 文件图标主体
+    // "workbench.iconTheme": "vscode-icons",
+    // 颜色主体
+    // "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Winter is Coming (Light - No Italics)",
+  // 文件删除时进行确认
+  "explorer.confirmDelete": false,
+  // vscode默认启用了根据文件类型自动设置editor.tabSize的选项
+  // "editor.detectIndentation": true,
+  // 重新设定tabsize
+  // "editor.tabSize": 4,
+  // 默认终端为git-bash 中的bash
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "bash.exe",
+      "icon": "terminal-bash"
+    },
+    "Conda Prompt(cmd)": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": [
+        "/K",
+        "${env:USERPROFILE}\\Miniconda3\\Scripts\\activate.bat ${env:USERPROFILE}\\Miniconda3"
+      ],
+      "icon": "terminal-cmd"
+    }
+  },
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
+  //控制终端在其缓冲区中保留的最大行数
+  "terminal.integrated.scrollback": 20000,
+  // 在使用搜索功能时，将这些文件夹/文件排除在外
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/logs": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true
+  },
+  // 这些文件将不会显示在工作空间中
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  },
