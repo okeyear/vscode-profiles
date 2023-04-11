@@ -1,0 +1,3 @@
+code --install-extension foxundermoon.shell-format
+code --install-extension Remisa.shellman
+code --install-extension timonwong.shellcheck
